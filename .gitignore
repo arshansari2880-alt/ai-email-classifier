@@ -3,8 +3,20 @@ credentials.json
 token.pickle
 *.pickle
 
-# Trained artifacts (large)
+# Trained artifacts (regenerate with run_demo.py / model.py)
 *.pkl
+
+# Generated outputs
+emails_dataset.csv
+emails_dataset.xlsx
+labeled_fast.csv
+processed_dataset.csv
+output_predictions.csv
+*.xlsx
+
+# Keep sample datasets
+!labeled_dataset.csv
+!input.csv
 
 # Python
 __pycache__/
@@ -13,13 +25,6 @@ __pycache__/
 .venv/
 venv/
 .env
-
-# Data / outputs
-emails_dataset.csv
-emails_dataset.xlsx
-labeled_fast.csv
-*.xlsx
-*.csv
 
 # IDE / OS
 .idea/

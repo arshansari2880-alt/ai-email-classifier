@@ -1,69 +1,51 @@
 # AI-Based Email Classifier
 
-Personal project by [arshansari2880](https://github.com/arshansari2880).
+Personal project by [arshansari2880-alt](https://github.com/arshansari2880-alt).
 
-Classifies emails into categories using Gmail data, rule-based + AI labeling, and an ensemble ML model (~94% accuracy).
+Classifies emails into **spam / phishing / important / ham** using rule-based labeling and an ensemble ML model.
 
-## Features
-
-- Collect emails via the Gmail API
-- Clean and preprocess subject/body text
-- Label with rules + AI-assisted labeling
-- Train an ensemble classifier (Logistic Regression, Naive Bayes, Random Forest, SVM, XGBoost)
-- Predict categories on new CSV data
-
-## Project structure
-
-| File | Purpose |
-|------|---------|
-| `email_collector.py` | Fetch emails from Gmail into a dataset |
-| `labeling.py` | Clean text and assign labels |
-| `model.py` | Train and save the classifier |
-| `predict_csv.py` | Run predictions on a CSV |
-| `count.py` | Quick label/count utilities |
-
-## Setup
+## Quick start (works offline)
 
 ```bash
 pip install -r requirements.txt
+python run_demo.py
 ```
 
-For Gmail collection, also install Google client libraries and place `credentials.json` from Google Cloud Console in this folder:
+This will:
+
+1. Label `labeled_dataset.csv` with rules
+2. Train and save the model
+3. Predict categories for `input.csv` → `output_predictions.csv`
+
+## Pipeline
+
+| Step | Command | Input | Output |
+|------|---------|-------|--------|
+| Optional Gmail collect | `python email_collector.py --mode test` | `credentials.json` | `emails_dataset.csv` |
+| Label | `python labeling.py` | `labeled_dataset.csv` or `emails_dataset.csv` | `labeled_fast.csv` |
+| Train | `python model.py` | `labeled_fast.csv` | `email_classifier.pkl` |
+| Predict | `python predict_csv.py` | `input.csv` | `output_predictions.csv` |
+| Counts | `python count.py` | `labeled_fast.csv` | console summary |
+
+Optional LLM refinement (needs [Ollama](https://ollama.com) + `mistral`):
 
 ```bash
-pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib
+python labeling.py --llm
 ```
 
-## Usage
+## Gmail collection (optional)
 
-1. **Collect emails** (optional — needs Gmail OAuth):
+1. Google Cloud → enable **Gmail API**
+2. Create OAuth **Desktop** credentials
+3. Save as `credentials.json` in this folder
+4. Run:
 
-   ```bash
-   python email_collector.py
-   ```
+```bash
+python email_collector.py --mode test
+```
 
-2. **Label the dataset:**
-
-   ```bash
-   python labeling.py
-   ```
-
-3. **Train the model:**
-
-   ```bash
-   python model.py
-   ```
-
-4. **Predict on a CSV:**
-
-   ```bash
-   python predict_csv.py
-   ```
+Then rename/copy `emails_dataset.csv` usage is automatic — `labeling.py` picks it up if present (or keep using the included sample `labeled_dataset.csv`).
 
 ## Requirements
 
-See `requirements.txt` (pandas, scikit-learn, xgboost, BeautifulSoup, etc.).
-
-## License
-
-MIT — feel free to use and adapt.
+See `requirements.txt`.

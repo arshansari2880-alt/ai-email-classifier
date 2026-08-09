@@ -1,0 +1,81 @@
+subject,sender,recipient,body,has_links,labels
+Verify your account immediately,security@paypal-alert.com,you@example.com,We detected unauthorized access. Click here to login and confirm your identity or your account will be suspended. OTP required.,True,INBOX
+Urgent: reset your password now,noreply@bank-secure.net,you@example.com,Your bank verification failed. Please update your details and reset your password within 24 hours. Limited slots available.,True,INBOX
+Security alert - OTP required,alert@secure-login.co,you@example.com,Unauthorized access detected on your account. Verify your account and enter the OTP to continue.,True,INBOX
+Limited time offer - 70% off,deals@shopnow.biz,you@example.com,Exclusive deal just for you! Buy now before sale ends soon. Unsubscribe anytime. Free trial available.,True,INBOX
+Congratulations you have been selected,winner@prizehub.com,you@example.com,You have been selected to win a free iPhone. Click here to claim. Earn money from home. Apply now!,True,SPAM
+Work from home and earn money,jobs@easyincome.info,you@example.com,Limited slots available. Work from home and earn money fast. Discount for early applicants. Unsubscribe link below.,True,SPAM
+Meeting tomorrow at 10 AM,manager@company.com,you@example.com,Hi team reminder about our project update meeting tomorrow. Please review the presentation before the discussion.,False,INBOX
+Assignment submission deadline,professor@university.edu,you@example.com,The assignment submission deadline is Friday. Please complete your project review and schedule a discussion if needed.,False,IMPORTANT
+Interview scheduled for Monday,hr@techcorp.com,you@example.com,Your interview is scheduled for Monday at 2 PM. Action required: confirm your availability for the client presentation.,False,INBOX
+Exam timetable released,exams@sitpune.edu.in,students@sitpune.edu.in,Dear students the examination schedule and timetable for this semester are attached. Lab attendance is mandatory.,False,INBOX
+UPI payment credited Rs. 2500,alerts@hdfcbank.com,you@example.com,INR 2500 has been credited to your account via UPI. Transaction successful. Available balance updated.,False,INBOX
+Debit alert - NEFT transfer,alerts@icicibank.com,you@example.com,Rs. 1200 debited from your account via NEFT. Payment to merchant completed. Amount withdrawn successfully.,False,INBOX
+Your Amazon order shipped,shipment@amazon.com,you@example.com,Your order has been shipped and will arrive soon. Track your package using the link in this email.,True,INBOX
+Weekly newsletter - tech digest,news@techdaily.com,you@example.com,Here is your weekly roundup of technology news. Read more articles on our website. Unsubscribe if not interested.,True,INBOX
+Password expiry notice,it@company.com,you@example.com,Your company password will expire in 7 days. Please update your password from the employee portal when convenient.,False,INBOX
+Client review call this week,pm@agency.com,you@example.com,Please join the client review and project update discussion on Thursday. Action required before the deadline.,False,IMPORTANT
+Phishing test: confirm bank login,fraud@fake-bank.ru,you@example.com,Login to your account immediately to verify your account. Bank verification and OTP required or access will be locked.,True,INBOX
+Flash sale ends tonight,promo@fashionmart.com,you@example.com,Limited time offer! Exclusive deal and discount on selected items. Buy now. Sale ends soon. Unsubscribe option included.,True,SPAM
+Lecture notes for semester,faculty@symbiosis.ac.in,you@example.com,Lecture and lab schedule for the batch. Internal assessment and assignment submission details are included.,False,IMPORTANT
+Account balance statement,noreply@sbi.co.in,you@example.com,Your account statement is ready. Balance and recent transaction details for deposit and payment activity.,False,INBOX
+Verify identity to keep Netflix,billing@netflix-security.tk,you@example.com,Confirm your identity and update your details or your account will be suspended. Click here to login now.,True,INBOX
+Win a free vacation package,contests@travelwin.org,you@example.com,Congratulations! You have been selected. Click here to claim your prize. Free trial of premium membership included.,True,SPAM
+Project deadline reminder,lead@startup.io,you@example.com,Reminder about the project deadline and submission. Schedule a meeting for presentation review with the client.,False,IMPORTANT
+IMPS money received,alerts@axisbank.com,you@example.com,You have received Rs. 500 via IMPS. Amount credited. Transaction reference available in your bank alert.,False,INBOX
+Document verification pending,admin@sit.edu.in,you@example.com,Students must complete document verification this week. Uniform and attendance rules apply for the semester batch.,False,IMPORTANT
+Spam blast: earn from crypto,crypto@getrich.biz,you@example.com,Earn money with our exclusive deal. Limited time offer. Buy now and win big. Work from home. Apply now!,True,SPAM
+Team standup schedule,scrum@product.com,you@example.com,Daily standup meeting schedule updated. Discussion points include project update and assignment of tasks.,False,INBOX
+Suspicious login attempt,no-reply@secure-mail.net,you@example.com,Unauthorized access detected. Reset your password and verify your account. OTP required for bank verification.,True,INBOX
+Practical exam notice,labs@university.edu,you@example.com,External practical examination schedule for lab sessions. Students should check the timetable and attendance list.,False,IMPORTANT
+Payment of Rs. 899 successful,payments@phonepe.com,you@example.com,UPI payment of Rs. 899 sent successfully. Transaction completed. Amount debited from linked account.,False,INBOX
+Claim your free gift card,gifts@rewardszone.com,you@example.com,You have been selected for a free gift. Click here. Limited slots available. Unsubscribe from future offers.,True,SPAM
+Presentation dry run,mentor@college.edu,you@example.com,Please prepare for the presentation and project review meeting. Action required before the assignment deadline.,False,IMPORTANT
+Deposit confirmation,alerts@kotak.com,you@example.com,INR deposit credited to your account. Balance updated after the transaction. Bank alert for your records.,False,INBOX
+Login required for package,dhl-alert@tracking-secure.com,you@example.com,Your package is on hold. Login to your account and verify your account details. Urgent action required.,True,INBOX
+Semester registration open,registrar@symbiosis.edu,you@example.com,Semester registration for students is open. Check timetable lecture schedule and document verification steps.,False,IMPORTANT
+Huge discount this weekend,sales@megamart.in,you@example.com,Discount and exclusive deal this weekend. Sale ends soon. Buy now. Free trial on selected products. Unsubscribe.,True,SPAM
+Internal assessment marks,hod@sitpune.edu.in,you@example.com,Internal and external marks for the batch are published. Students may review assignment and lab scores.,False,IMPORTANT
+NEFT transfer failed retry,support@paytm.com,you@example.com,Your NEFT payment of Rs. 3400 is processing. Transaction status will update once amount is credited.,False,INBOX
+Confirm wire transfer,wire@intl-bank-alert.com,you@example.com,Urgent action required. Confirm your identity to approve bank verification. Click here to login and reset your password.,True,INBOX
+Newsletter: productivity tips,hello@blogmail.com,you@example.com,Tips to improve focus this week. Read more on our blog. You can unsubscribe from this newsletter anytime.,True,INBOX
+Client onboarding call,sales@saas.io,you@example.com,Schedule confirmed for client onboarding discussion and project update. Please review materials before the meeting.,False,IMPORTANT
+Lottery winner announcement,lotto@chancewin.net,you@example.com,Congratulations you have been selected to win cash. Click here. Earn money instantly. Apply now limited slots.,True,SPAM
+Lab attendance mandatory,labincharge@college.edu,you@example.com,Lab attendance is mandatory for all students this semester. Practical schedule and examination dates attached.,False,IMPORTANT
+Amount withdrawn at ATM,alerts@yesbank.in,you@example.com,Rs. 2000 withdrawn from ATM. Account balance reduced. Transaction alert from your bank.,False,INBOX
+Update billing information,appleid@secure-apple.co,you@example.com,Update your details and verify your account or billing will stop. Login to your account urgently. OTP required.,True,INBOX
+Submission portal opens Friday,course@online.edu,you@example.com,Assignment submission portal opens Friday. Deadline for project update and review is next Monday.,False,IMPORTANT
+Flash deal on electronics,offers@electrohub.com,you@example.com,Limited time offer on electronics. Exclusive deal and discount. Buy now before sale ends soon. Unsubscribe.,True,SPAM
+Team retrospective notes,agile@company.com,you@example.com,Notes from yesterday's retrospective meeting. Action items for the project and schedule for next discussion.,False,INBOX
+Phishing: suspended mailbox,admin@mail-security.xyz,you@example.com,Your mailbox will be suspended. Verify your account password and confirm your identity via the link. OTP required.,True,INBOX
+Ham: lunch plans,friend@gmail.com,you@example.com,Hey are we still on for lunch tomorrow afternoon near campus?,False,INBOX
+Important: board meeting agenda,ceo@enterprise.com,you@example.com,Please find the board meeting agenda. Review required before Friday deadline and client presentation.,False,IMPORTANT
+Spam: crypto double your money,invest@mooncoins.biz,you@example.com,Double your money with our exclusive deal. Limited time offer. Buy now and win. Work from home. Apply now!,True,SPAM
+Transaction receipt,noreply@razorpay.com,you@example.com,Payment of Rs. 499 received successfully via UPI. Amount credited to merchant. Transaction complete.,False,INBOX
+Exam form last date,controller@university.edu,you@example.com,Last date for examination form submission. Students must complete document verification before the deadline.,False,IMPORTANT
+Reset banking app PIN,support@fake-hdfc.com,you@example.com,Unauthorized access detected. Reset your password and verify your account. Bank verification OTP required now.,True,INBOX
+Weekend sale carnival,marketing@lifestyle.in,you@example.com,Sale ends soon! Exclusive deal and discount. Free trial membership. Click here. Unsubscribe available.,True,SPAM
+Project sync with mentor,student@sitpune.edu.in,mentor@sitpune.edu.in,Can we schedule a meeting to discuss project update assignment progress and presentation feedback?,False,IMPORTANT
+Salary credited,payroll@company.com,you@example.com,Your salary has been credited to your account. Amount deposited via NEFT. Balance updated.,False,INBOX
+Unknown promo blast,ads@randomoffers.net,you@example.com,Buy now win prizes congratulations you have been selected earn money limited slots unsubscribe click here,True,SPAM
+Class cancelled today,faculty@symbiosis.ac.in,batch@symbiosis.ac.in,Lecture cancelled today. Updated timetable will be shared. Attendance will not be marked for this session.,False,IMPORTANT
+Package delivery update,noreply@flipkart.com,you@example.com,Your package is out for delivery today. No action required. Track status online if needed.,True,INBOX
+Urgent KYC verification,kyc@secure-wallet.io,you@example.com,Complete KYC to verify your account. Login and confirm your identity. Unauthorized access may suspend services.,True,INBOX
+Internship interview slots,careers@fintech.com,you@example.com,Interview slots for internship are open. Action required to confirm schedule and prepare for discussion.,False,IMPORTANT
+Spam: miracle weight loss,health@slimfast.biz,you@example.com,Limited time offer exclusive deal discount buy now free trial win congratulations unsubscribe click here,True,SPAM
+IMPS sent to friend,alerts@unionbank.com,you@example.com,IMPS of Rs. 750 sent successfully. Amount debited. Transaction reference included in this bank alert.,False,INBOX
+Assignment grades published,ta@college.edu,you@example.com,Assignment grades for the semester are published. Students may review scores and request discussion if needed.,False,IMPORTANT
+Fake invoice payment due,billing@quickpay-secure.com,you@example.com,Invoice overdue. Click here to login and update your details. Verify your account or face suspension.,True,INBOX
+Community meetup invite,events@cityclub.org,you@example.com,Join our community meetup this Saturday. Casual discussion and networking. Reply if you can attend.,False,INBOX
+Spam: secret shopper job,hiring@cashjobs.info,you@example.com,Work from home earn money apply now limited slots exclusive deal free trial congratulations click here,True,SPAM
+External viva schedule,examcell@sit.edu.in,you@example.com,External viva and practical examination schedule released for the batch. Check timetable and document list.,False,IMPORTANT
+Refund processed,support@swiggy.in,you@example.com,Refund of Rs. 180 has been credited to your account. Transaction should reflect in balance shortly.,False,INBOX
+Account locked warning,security@outlook-alert.com,you@example.com,Your account will be suspended. Reset your password verify your account OTP required unauthorized access detected,True,INBOX
+Workshop on ML basics,events@university.edu,you@example.com,Workshop schedule for students. Lecture and lab sessions cover ML basics. Registration deadline this week.,False,IMPORTANT
+Daily deal digest,deals@couponworld.com,you@example.com,Today's discount and exclusive deal. Sale ends soon buy now limited time offer unsubscribe from emails,True,SPAM
+Family check-in,mom@gmail.com,you@example.com,Just checking in. Call when free. Dinner at home on Sunday if you are around.,False,INBOX
+Action required: contract review,legal@partner.com,you@example.com,Please review the contract before the deadline. Meeting scheduled for discussion and client approval.,False,IMPORTANT
+Phish: tax refund claim,tax@gov-refund.support,you@example.com,Claim your tax refund. Login to your account confirm your identity and bank verification. OTP required urgently.,True,INBOX
+Promo: buy 1 get 1,store@apparelhub.com,you@example.com,Buy now exclusive deal limited time offer discount sale ends soon free trial unsubscribe click here,True,SPAM
+Semester fee receipt,accounts@symbiosis.edu,you@example.com,Fee payment received for the semester. Receipt attached. Students keep this for document verification.,False,IMPORTANT
+Card transaction Rs. 56,alerts@indusind.com,you@example.com,Card payment of Rs. 56 successful. Amount debited from account. Transaction alert for your records.,False,INBOX

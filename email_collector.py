@@ -23,6 +23,16 @@ OUTPUT_CSV = "emails_dataset.csv"
 OUTPUT_XLSX = "emails_dataset.xlsx"
 
 def authenticate():
+    if not os.path.exists(CREDENTIALS_PATH):
+        raise FileNotFoundError(
+            f"Missing {CREDENTIALS_PATH}.\n"
+            "1) Create a Google Cloud project\n"
+            "2) Enable Gmail API\n"
+            "3) Create OAuth Desktop credentials\n"
+            "4) Download as credentials.json into this folder\n"
+            "Or skip Gmail and run: python run_demo.py"
+        )
+
     creds = None
 
     if os.path.exists(TOKEN_PATH):
@@ -36,7 +46,7 @@ def authenticate():
         flow = InstalledAppFlow.from_client_secrets_file(
             CREDENTIALS_PATH, SCOPES
         )
-        creds = flow.run_local_server(port = 0)
+        creds = flow.run_local_server(port=0)
 
         with open(TOKEN_PATH, "wb") as token:
             pickle.dump(creds, token)
@@ -234,6 +244,19 @@ def run_collection(mode="batch", batch_size = 10000):
 
 
 if __name__ == "__main__":
-    # run_collection(mode="test")
-    # run_collection(mode="batch", batch_size=200)
-    run_collection(mode="full")
+    import argparse
+
+    parser = argparse.ArgumentParser(description="Collect emails via Gmail API")
+    parser.add_argument(
+        "--mode",
+        choices=["test", "batch", "full"],
+        default="test",
+        help="test=5 emails, batch=N emails, full=all",
+    )
+    parser.add_argument("--batch-size", type=int, default=200)
+    args = parser.parse_args()
+
+    if args.mode == "batch":
+        run_collection(mode="batch", batch_size=args.batch_size)
+    else:
+        run_collection(mode=args.mode)
