@@ -1,0 +1,12 @@
+pandas
+numpy
+scikit-learn
+xgboost
+joblib
+ftfy
+requests
+tqdm
+beautifulsoup4
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib

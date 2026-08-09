@@ -1,0 +1,28 @@
+# Secrets / OAuth
+credentials.json
+token.pickle
+*.pickle
+
+# Trained artifacts (large)
+*.pkl
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Data / outputs
+emails_dataset.csv
+emails_dataset.xlsx
+labeled_fast.csv
+*.xlsx
+*.csv
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
